@@ -1,4 +1,4 @@
-// Login.jsx
+
 import React, { useState } from "react";
 import "./style.css";
 
@@ -14,7 +14,7 @@ function Login({ onLogin }) {
     <div className="login-wrapper">
       <div className="login-box">
         <img
-          src="/logo.avif" // Asegurate de colocar tu logo en public/logo.png
+          src="/logo.avif" 
           alt="Logo"
           className="login-logo"
         />
