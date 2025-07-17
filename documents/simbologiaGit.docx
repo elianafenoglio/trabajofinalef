@@ -1,0 +1,7 @@
+
+D	Deleted dos de las letras en Git
+Símbolo	Significado
+A	Added – Archivo nuevo agregado al staging con git add
+M	Modified– Archivo eliminado
+?	Untracked – Archivo nuevo que Git todavía no sigue
+!	Ignored – Archivo que Git ignora (por ejemplo, listado en .gitignore)

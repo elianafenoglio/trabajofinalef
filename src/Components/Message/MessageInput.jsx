@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 
 function MessageInput({ onSend }) {
@@ -10,6 +11,7 @@ function MessageInput({ onSend }) {
       setText('');
     }
   };
+
   return (
     <form className="message-input" onSubmit={handleSubmit}>
       <input
