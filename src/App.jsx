@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 import React from "react";
 import './style.css';
 import ChatScreen from "./Screen/ChatScreen";
 
 function App() {
   return <ChatScreen />;
-=======
+
 import React, { useState } from "react";
 import './style.css';
 import Login from "./Login";
@@ -51,7 +51,7 @@ function App() {
   }
 
   return <Chat messages={messages} onSend={handleSend} />;
->>>>>>> 0ff36649e45e2d8268bb7e2042ab68802dbed2b6
+
 }
 
 export default App;
